@@ -1,0 +1,52 @@
+{
+    "name": "PWA Notas",
+    "short_name": "PWAN",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "orientation": "portrait",
+    "description": "Notas de PWA",
+    "icons": [
+        {
+            "src": "images/icons/android-launchericon-72-72.png",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "images/icons/android-launchericon-96-96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "images/icons/android-launchericon-144-144.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "images/icons/android-launchericon-144-144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "images/icons/android-launchericon-144-144.png",
+            "type": "image/png",
+            "sizes": "152x152"
+        },
+        {
+            "src": "images/icons/android-launchericon-192-192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "images/icons/android-launchericon-512-512.png",
+            "type": "image/png",
+            "sizes": "384x384"
+        },
+        {
+            "src": "images/icons/android-launchericon-512-512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "background_color": "#2a4a5b",
+    "theme_color": "#2a4a5b"
+}
