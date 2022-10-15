@@ -22,9 +22,6 @@ self.addEventListener("install", event => {
 self.addEventListener('fetch', (event) => {
     console.log(event.request);
     const res = fetch(event.request).then((respWeb) => {
-        if (!respWeb.ok) {
-            return caches.match(event.request)
-        }
         caches.open("dynamic").then((cacheDynamic) => {
             cacheDynamic.put(event.request, respWeb);
             //aqui va el cleane
